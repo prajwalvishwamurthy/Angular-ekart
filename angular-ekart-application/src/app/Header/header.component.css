@@ -2,7 +2,7 @@
     width: 100%;
     height: 11vh;
     display:flex;
-    flex-wrap: wrap;
+    flex-wrap: initial;
     border-bottom: #E5E4E2 1.5px solid;
 }
 
@@ -17,7 +17,7 @@
 .ekart--header--nav{
     width: 80%;
     padding: 1vh 2vh;
-    font-size: 10px;
+    font-size: 12px;
 }
 .ekart--top--bar{
     width:auto;
@@ -28,11 +28,11 @@
 }
 .ekart-menu{
     padding-top: 2vh;
-    padding: 1vh 1vh;
+    /* padding: 1vh 1vh; */
     color: #36454F;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight:normal;
-    font-size: 14px;
+    font-size: 16px;
     width:70%;
     text-align: center;
 }
@@ -52,12 +52,11 @@
 a{
     text-decoration: none;   
     padding: 0 10px; 
-    color: #28282B;
 }
 .ekart--search--btn{
     width: 33px;
     height: 33px;
-    border: none;
+    border: 1px;
     background-color: #efefef;
     margin-left: -5px;
 }
