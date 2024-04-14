@@ -7,6 +7,7 @@ import { HeaderComponent } from './Header/header.component';
 import { TopheaderComponent } from './topheader/topheader.component';
 import { TopMenuComponent } from './Header/top-menu/top-menu.component';
 import { MainMenuComponent } from './Header/main-menu/main-menu.component';
+import { ProductListComponent } from './product-list/product-list.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { MainMenuComponent } from './Header/main-menu/main-menu.component';
     HeaderComponent,
     TopheaderComponent,
     TopMenuComponent,
-    MainMenuComponent
+    MainMenuComponent,
+    ProductListComponent
   ],
   imports: [
     BrowserModule,
