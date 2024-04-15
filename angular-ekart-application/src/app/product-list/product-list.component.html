@@ -1,8 +1,14 @@
-<img [src]="product.pImage" alt="iPhone">
-<p>Name : {{product.name}} </p>
-<p>Price : ${{product.price}}</p>
-<p>Color : {{product.color}}</p>
-<p>Discounted Price : ${{getDiscountedPrice().toFixed(1)}}</p>
-<p>{{product.inStock > 0 ? 'only ' + product.inStock +' item left' : ' not in Stock'}}</p>
-<button [disabled]="!(product.inStock > 0)">Click</button>
-<input [value]="name">
+<div class="ekart-product--container">
+    <!-- <img [src]="product.pImage" alt="iPhone">
+    <p>Name : {{product.name}} </p>
+    <p>Price : ${{product.price}}</p>
+    <p>Color : {{product.color}}</p>
+    <p>Discounted Price : ${{getDiscountedPrice().toFixed(1)}}</p>
+    <p>{{product.inStock > 0 ? 'only ' + product.inStock +' item left' : ' not in Stock'}}</p>
+    <button (click) =decrementCartValue()>-</button>
+    <span>{{addToCart}}</span>
+    <button (click) = incrementCartValue()>+</button> -->
+    <!-- <input [value]="name" (input)="onNameChange($event)"><br>
+    <p>name = {{name}}</p> -->
+    <app-search></app-search>
+</div>
