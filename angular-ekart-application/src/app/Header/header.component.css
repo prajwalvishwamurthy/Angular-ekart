@@ -2,7 +2,7 @@
     width: 100%;
     height: 11vh;
     display:flex;
-    flex-wrap: initial;
+    flex-wrap: nowrap;
     border-bottom: #E5E4E2 1.5px solid;
 }
 
