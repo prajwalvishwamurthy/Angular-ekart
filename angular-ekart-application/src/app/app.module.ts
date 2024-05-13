@@ -12,6 +12,7 @@ import { SearchComponent } from './Container/search/search.component';
 import { FormsModule } from '@angular/forms';
 import { ProductlistComponent } from './Container/productlist/productlist.component';
 import { ProductComponent } from './Container/productlist/product/product.component';
+import { FilterComponent } from './Container/productlist/filter/filter.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +23,8 @@ import { ProductComponent } from './Container/productlist/product/product.compon
     ContainerComponent,
     SearchComponent,
     ProductlistComponent,
-    ProductComponent
+    ProductComponent,
+    FilterComponent
   ],
   imports: [
     BrowserModule,
